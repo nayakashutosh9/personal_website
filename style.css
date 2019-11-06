@@ -1,0 +1,11 @@
+body{
+	background-color: #020429;
+	border-bottom: 50px solid #070117;
+	border-left: 50px solid #070117;
+	border-right: 50px solid #070117;
+	padding-bottom: 100%;
+}
+.wrap h2{
+	font-size: 100px;
+	color: #ba093b;
+}
