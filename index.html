@@ -21,6 +21,15 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+    <!-- <script type="text/javascript">
+    	var viewMode = getCookie("view-mode");
+		if(viewMode == "desktop"){
+		    viewport.setAttribute('content', 'width=1024');
+		}else if (viewMode == "mobile"){
+		    viewport.setAttribute('content', 'width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no');
+		}
+    </script> -->
+    <meta name="viewport" content="width=device">
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 	  
@@ -45,14 +54,15 @@
 	        </ul>
 	      </div>
 	    </div>
-	  </nav>
+	  </nav><br><br>
 	  <section id="home-section" class="hero">
 		  <div class="home-slider  owl-carousel">
 	      <div class="slider-item ">
 	      	<div class="overlay"></div>
 	        <div class="container">
 	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/self.jpeg);">
+	          	<div class="one-third js-fullheight order-md-last img">
+	          		<img src="images/self.jpeg" width="70%" height="90%">
 	          		<div class="overlay"></div>
 	          	</div>
 		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
@@ -90,15 +100,13 @@
     <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
     	<div class="container">
     		<div class="row d-flex">
-    			<div class="col-md-6 col-lg-5 d-flex">
+    			<div class="col-md-6 col-lg-5 col-xs-5 col-sm-5 d-flex ftco-animate">
+    				<div class="overlay"></div>
     				<div class="img-about img d-flex align-items-stretch">
-    					<div class="overlay"></div>
-	    				<div class="img d-flex align-self-stretch align-items-center">
-
-	    				</div>
+    					<img width="80%" height="84%" src="images/abt.jpg" style="border-radius: 10px;">
     				</div>
     			</div>
-    			<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+    			<div class="col-md-6 col-lg-7 col-xs-7 col-sm-7 pl-lg-5 pb-5">
     				<div class="row justify-content-start pb-3">
 		          <div class="col-md-12 heading-section ftco-animate">
 		          	<h1 class="big">About</h1>
@@ -114,6 +122,7 @@
 		            	<li class="d-flex"><span>Linked In:</span> <span><a href="https://www.linkedin.com/in/ashutosh-nayak-a67117173/">https://www.linkedin.com/in/ashutosh-nayak-a67117173/</a></span></li>
 		            	<li class="d-flex"><span>Github:</span> <span><a href="https://github.com/nayakashutosh9">https://github.com/nayakashutosh9</a></span></li>
 		       			<li class="d-flex"><span>Codechef:</span> <span><a href="https://www.codechef.com/users/nayakashutosh9">https://www.codechef.com/users/nayakashutosh9</a></span></li>
+		       			<li class="d-flex"><span>Codeforces:</span> <span><a href="https://codeforces.com/profile/nayakashutosh9">https://codeforces.com/profile/nayakashutosh9</a></span></li>
 		       			<li class="d-flex"><span>Hackerrank:</span> <span><a href="https://www.hackerrank.com/nayakashutosh99">https://www.hackerrank.com/nayakashutosh99</a></span></li>
 		       			<li class="d-flex"><span>Hackerearth:</span> <span><a href="https://www.hackerearth.com/@ashutosh800">https://www.hackerearth.com/@ashutosh800</a></span></li>
 		            </ul>
@@ -279,7 +288,7 @@
           </div>
         </div>
 				<div class="row">
-					<div class="col-md-6 animate-box">
+					<div class="col-md-6 col-xs-6 col-sm-6 animate-box">
 						<div class="progress-wrap ftco-animate">
 							<h3>C++</h3>
 							<div class="progress">
@@ -290,7 +299,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 animate-box">
+					<div class="col-md-6 col-xs-6 col-sm-6 animate-box">
 						<div class="progress-wrap ftco-animate">
 							<h3>Python</h3>
 							<div class="progress">
@@ -301,7 +310,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 animate-box">
+					<div class="col-md-6 col-xs-6 col-sm-6 animate-box">
 						<div class="progress-wrap ftco-animate">
 							<h3>Java</h3>
 							<div class="progress">
@@ -312,7 +321,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 animate-box">
+					<div class="col-md-6 col-xs-6 col-sm-6 animate-box">
 						<div class="progress-wrap ftco-animate">
 							<h3>HTML</h3>
 							<div class="progress">
@@ -323,7 +332,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 animate-box">
+					<div class="col-md-6 col-xs-6 col-sm-6 animate-box">
 						<div class="progress-wrap ftco-animate">
 							<h3>CSS</h3>
 							<div class="progress">
@@ -334,7 +343,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 animate-box">
+					<div class="col-md-6 col-xs-6 col-sm-6 animate-box">
 						<div class="progress-wrap ftco-animate">
 							<h3>Javascript</h3>
 							<div class="progress">
@@ -345,7 +354,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 animate-box">
+					<div class="col-md-6 col-xs-6 col-sm-6 animate-box">
 						<div class="progress-wrap ftco-animate">
 							<h3>JQuery</h3>
 							<div class="progress">
@@ -356,7 +365,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 animate-box">
+					<div class="col-md-6 col-xs-6 col-sm-6 animate-box">
 						<div class="progress-wrap ftco-animate">
 							<h3>Matlab</h3>
 							<div class="progress">
@@ -367,7 +376,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 animate-box">
+					<div class="col-md-6 col-xs-6 col-sm-6 animate-box">
 						<div class="progress-wrap ftco-animate">
 							<h3>Android Studio</h3>
 							<div class="progress">
@@ -378,7 +387,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 animate-box">
+					<div class="col-md-6 col-xs-6 col-sm-6 animate-box">
 						<div class="progress-wrap ftco-animate">
 							<h3>Django</h3>
 							<div class="progress">
@@ -389,7 +398,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 animate-box">
+					<div class="col-md-6 col-xs-6 col-sm-6 animate-box">
 						<div class="progress-wrap ftco-animate">
 							<h3>SQL</h3>
 							<div class="progress">
@@ -400,7 +409,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 animate-box">
+					<div class="col-md-6 col-xs-6 col-sm-6 animate-box">
 						<div class="progress-wrap ftco-animate">
 							<h3>Photoshop</h3>
 							<div class="progress">
@@ -411,7 +420,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 animate-box">
+					<div class="col-md-6 col-xs-6 col-sm-6 animate-box">
 						<div class="progress-wrap ftco-animate">
 							<h3>Adobe Premiere Pro</h3>
 							<div class="progress">
@@ -422,7 +431,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 animate-box">
+					<div class="col-md-6 col-xs-6 col-sm-6 animate-box">
 						<div class="progress-wrap ftco-animate">
 							<h3>Adobe After Effects</h3>
 							<div class="progress">
@@ -446,13 +455,42 @@
             <h2 class="mb-4">My Projects</h2>
           </div>
         </div>
+        	<div class="row">
+    			<div class="col-md-6">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/p9.png);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3>Complaint Management System for NITR hostels</h3>
+	    					<span>Web Design(Django Backend)</span><hr>
+	    					<p style="font-size: 0.8em;color: white;">This is full stack complaint management system for NITR hostels where students can register their queries related to hostel and different workers at Chief Warden's Office can check this and resolve them.</p>
+	    					<hr>
+	    					<button class="btn btn-danger"><a href="https://github.com/nayakashutosh9/CMS" style="font-size: 1em;color: white;">Github Link</a></button>
+	    				</div>
+    				</div>
+  				</div>
+  				<div class="col-md-6">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/p10.png);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3>Star Social Multiblog Website</h3>
+	    					<span>Web Design(Django Backend)</span><hr>
+	    					<p style="font-size: 0.8em;color: white;">This is multi blogging full stack website where users can sign up and login and post blogs in different groups either by creating or joining groups.</p>
+	    					<hr>
+	    					<button class="btn btn-danger"><a href="https://github.com/nayakashutosh9/social_media_website" style="font-size: 1em;color: white;">Github Link</a></button>
+	    				</div>
+    				</div>
+  				</div>
+  			</div>
     		<div class="row">
     			<div class="col-md-6">
     				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/p1.png);">
     					<div class="overlay"></div>
 	    				<div class="text text-center p-4">
 	    					<h3>ToDo Website</h3>
-	    					<span>Web Design</span>
+	    					<span>Web Design(Django Backend)</span><hr>
+	    					<p style="font-size: 0.8em;color: white;">This is full stack ToDo website for learning purpose where students can make a note of what they are going to do, they can keep any record or any important information.</p>
+	    					<hr>
+	    					<button class="btn btn-danger"><a href="https://github.com/nayakashutosh9/ToDo" style="font-size: 1em;color: white;">Github Link</a></button>
 	    				</div>
     				</div>
   				</div>
@@ -461,7 +499,10 @@
     					<div class="overlay"></div>
 	    				<div class="text text-center p-4">
 	    					<h3>Blog Website</h3>
-	    					<span>Web Design</span>
+	    					<span>Web Design(Django Backend)</span><hr>
+	    					<p style="font-size: 0.8em;color: white;">This is a full stack Blogging website where people can register(sign up) and write their blogs and this will be maintained. CRUD views are properly implemented in this project.</p>
+	    					<hr>
+	    					<button class="btn btn-danger"><a href="https://github.com/nayakashutosh9/My_Blog" style="font-size: 1em;color: white;">Github Link</a></button>
 	    				</div>
     				</div>
   				</div>
@@ -472,7 +513,10 @@
     					<div class="overlay"></div>
 	    				<div class="text text-center p-4">
 	    					<h3>Competitive Programming Platform</h3>
-	    					<span>Web Design</span>
+	    					<span>Web Design(Django Backend)</span><hr>
+	    					<p style="font-size: 0.8em;color: white;">This is a full stack Competitive Programming platform for students where students can practice interview questions with proper tags, difficulty levels and ordering. The tags, difficulty rating and link to problem are attached with every problem.</p>
+	    					<hr>
+	    					<button class="btn btn-danger"><a href="https://github.com/nayakashutosh9/cp_platform" style="font-size: 1em;color: white;">Github Link</a></button>
 	    				</div>
     				</div>
   				</div>
@@ -481,7 +525,10 @@
     					<div class="overlay"></div>
 	    				<div class="text text-center p-4">
 	    					<h3>Brain Train App</h3>
-	    					<span>App Design</span>
+	    					<span>App Design(Android Studio)</span><hr>
+	    					<p style="font-size: 0.8em;color: white;">This is a brain train app which is an one player game where a player will be having 30 seconds to answer as much mathematical problems as possible.</p>
+	    					<hr>
+	    					<button class="btn btn-danger"><a href="https://github.com/nayakashutosh9/Brain-Train-App" style="font-size: 1em;color: white;">Github Link</a></button>
 	    				</div>
     				</div>
   				</div>
@@ -492,7 +539,10 @@
     					<div class="overlay"></div>
 	    				<div class="text text-center p-4">
 	    					<h3>Weather App</h3>
-	    					<span>App Design</span>
+	    					<span>App Design(Android Studio)</span>
+	    					<p style="font-size: 0.8em;color: white;">This is a weather app which can provide weather details of a city using an API.</p>
+	    					<hr>
+	    					<button class="btn btn-danger"><a href="https://github.com/nayakashutosh9/Weather-App" style="font-size: 1em;color: white;">Github Link</a></button>
 	    				</div>
     				</div>
   				</div>
